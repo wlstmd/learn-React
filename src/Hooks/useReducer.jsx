@@ -11,7 +11,7 @@ function reducer(state, action) {
   }
 }
 
-function Counter() {
+function UseReducer() {
   const [state, dispatch] = useReducer(reducer, {count: 0});
 
   return (
@@ -22,4 +22,4 @@ function Counter() {
     </>
   );
 }
-export default Counter;
+export default UseReducer;

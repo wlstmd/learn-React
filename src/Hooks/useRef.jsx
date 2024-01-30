@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 
-function TextInputWithFocusButton() {
+function UseRef() {
   const inputEl = useRef(null);
   const onButtonClick = () => {
     inputEl.current.focus();
@@ -12,4 +12,4 @@ function TextInputWithFocusButton() {
     </>
   );
 }
-export default TextInputWithFocusButton;
+export default UseRef;

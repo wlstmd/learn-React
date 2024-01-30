@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 
-function Example() {
+function UseMemo() {
   const [count, setCount] = useState(0);
 
   const expensiveValue = useMemo(() => {
@@ -18,4 +18,4 @@ function Example() {
     </div>
   );
 }
-export default Example;
+export default UseMemo;
